@@ -1,0 +1,83 @@
+.container{
+    background: linear-gradient(to right, #f7b3b0 0%, #e0d2eb 100%);
+    text-align: center;
+    margin-top:23px
+    
+}
+
+table{
+    margin: auto;
+}
+
+input{
+    border-radius: 21px;
+    border: 5px solid #244624;
+    font-size:34px;
+    height: 65px;
+    width: 456px;
+}
+
+button{
+    border-radius: 20px;
+    font-size: 40px;
+    background: linear-gradient(to bottom, #6047DF 0%, #E5CCC3 100%);
+    width: 102px;
+    height: 90px;
+    margin: 6px;
+}
+
+.calculator{ 
+    border: 4px solid #98ec64b9;
+    background: linear-gradient(to bottom, #6454f0 0%, #6ee2f5 100%);
+    padding: 23px;
+    border-radius: 53px;
+    display: inline-block;
+    
+}
+
+h1{
+    font-size: 28px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.cup::after {
+    position: absolute;
+    content: "";
+    height: 10px;
+    width: 300px;
+    background-color: #fff;
+    left: -45px;
+    bottom: -10px;
+    border-radius: 10px;
+}
+.bubble {
+    height: 15px;
+    width: 15px;
+    background-color: #0d93db;
+    border-radius: 50%;
+    position: absolute;
+    animation: bubbles forwards infinite;
+    opacity: 0.6;
+}
+@keyframes bubbles {
+    100% {
+        transform: translateY(-150px);
+        opacity: 0;
+    }
+}
+.bubble-1 {
+    left: 30px;
+    bottom: 10px;
+    animation-delay: 0.5s;
+    animation-duration: 3s;
+}
+.bubble-2 {
+    left: 80px;
+    bottom: 35px;
+    animation-delay: 1.2s;
+    animation-duration: 4s;
+}
+.bubble-3 {
+    left: 140px;
+    bottom: 30px;
+    animation-duration: 3s;
+}
